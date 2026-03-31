@@ -102,7 +102,7 @@ private:
 			return head;
 		}
 
-		// Linear search
+		// Linear search - simple and correct
 		Node* current = head->next;
 		for (int i = 1; i < list_size; i++) {
 			if (code <= current->bound) {
